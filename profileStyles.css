@@ -1,0 +1,119 @@
+body {
+    background: #ddd;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#header {
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-head {
+    width: 400px;
+    font-size: 30px;
+    color: #ffa500;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn {
+    background-color: yellow;
+    font-size: 24px;
+
+}
+
+.p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.type-header {
+    color: #ffa500;
+    font-size: 30px;
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.skillz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 20vw;
+    height: 300px;
+}
+
+h4 {
+    color: darkblue;
+    font-size: 20px;
+}
+
+#fend {
+    width: 40vw;
+    height: 300px;
+}
+
+#interests {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interest-pic {
+    width: 25vw;
+    height: 300px;
+}
+
+#career {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.career-pic {
+    width: 33vw;
+    height: 300px;
+}
